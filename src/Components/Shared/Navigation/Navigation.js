@@ -23,7 +23,7 @@ const Navigation = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link className="btn btn-xs md:btn-sm lg:btn-sm hover:bg-red-400 bg-red-500 text-white border-0 px-6">Sign Up</Link>
+                <Link to={'/registration'} className="btn btn-xs md:btn-sm lg:btn-sm hover:bg-red-400 bg-red-500 text-white border-0 px-6">Sign Up</Link>
             </div>
         </div>
     );

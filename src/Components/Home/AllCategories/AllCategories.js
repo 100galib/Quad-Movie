@@ -3,7 +3,6 @@ import React from 'react';
 import SingleCategory from './SingleCategory';
 
 const AllCategories = () => {
-
     const url = 'https://api.tvmaze.com/search/shows?q=all';
 
     const {data: allCategory = [], isLoading} = useQuery({
@@ -20,11 +19,14 @@ const AllCategories = () => {
 
 
     return (
+        <>
         <div className='grid grid-cols-1 lg:grid-cols-3 place-items-center'>
             {
                 allCategory.map(single => <SingleCategory key={single.show.id} single={single}></SingleCategory>)
             }
-        </div>
+
+            </div>
+        </>
     );
 };
 
