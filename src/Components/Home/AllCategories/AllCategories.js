@@ -20,7 +20,7 @@ const AllCategories = () => {
 
     return (
         <>
-        <div className='grid grid-cols-1 lg:grid-cols-3 place-items-center'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center'>
             {
                 allCategory.map(single => <SingleCategory key={single.show.id} single={single}></SingleCategory>)
             }
