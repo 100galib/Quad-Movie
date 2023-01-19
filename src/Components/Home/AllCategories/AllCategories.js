@@ -18,7 +18,6 @@ const AllCategories = () => {
         return <h1>Loading.......</h1>
     }
 
-    console.log(allCategory)
 
     return (
         <div className='grid grid-cols-1 lg:grid-cols-3 place-items-center'>

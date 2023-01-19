@@ -14,7 +14,7 @@ const Navigation = () => {
                     <li><Link to={'allMovies'}>All Movies</Link></li>
                 </ul>
                 </div>
-                <Link className="hover:text-red-400 text-white text-2xl">Quad Movie</Link>
+                <Link to={'/'} className="hover:text-red-400 text-white text-2xl">Quad Movie</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
